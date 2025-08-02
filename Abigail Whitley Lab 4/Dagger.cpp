@@ -7,7 +7,7 @@
 
 using namespace std;
 
-Dagger::Dagger() : Weapons("Dagger",  1, 3) {
+Dagger::Dagger() : Weapons("Dagger",  3, 5) {
 
 }
 

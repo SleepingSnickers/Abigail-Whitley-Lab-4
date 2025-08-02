@@ -12,6 +12,7 @@ class Monsters
 protected:
 	string name;
 	int health;
+	int maxHealth;
 	Randomizer healthRange;
 	Randomizer damageRange;
 
@@ -22,8 +23,10 @@ public:
 
 	string getName() const;
 	int getMonsterDamage() const;
-
 	int getMonsterHealth() const;
+
+	void takeDamage(int);
+	void heal(int);
 
 	virtual string attack() = 0;
 };

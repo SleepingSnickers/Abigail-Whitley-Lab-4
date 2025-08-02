@@ -7,7 +7,7 @@
 
 using namespace std;
 
-Sword::Sword() : Weapons("Sword", 4, 6) {
+Sword::Sword() : Weapons("Sword", 6, 8) {
 
 }
 

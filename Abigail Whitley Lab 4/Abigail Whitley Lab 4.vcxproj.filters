@@ -54,6 +54,12 @@
     <ClCompile Include="Monsters.cpp">
       <Filter>Source Files\Monsters</Filter>
     </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Randomizer.h">
@@ -79,6 +85,12 @@
     </ClInclude>
     <ClInclude Include="Monsters.h">
       <Filter>Header Files\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

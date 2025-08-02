@@ -15,7 +15,7 @@ protected:
 public:
 	Weapons();
 	Weapons(string, int, int);
-	~Weapons();
+	virtual ~Weapons();
 
 	string getName() const;
 	int getWeaponDamage() const;

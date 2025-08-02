@@ -16,6 +16,7 @@ Monsters::Monsters(string name, Randomizer healthRange, Randomizer damageRange) 
 	this->damageRange = damageRange;
 
 	health = healthRange.getRandomValue();
+	maxHealth = health;
 }
 
 Monsters::~Monsters() {
@@ -32,4 +33,18 @@ int Monsters::getMonsterDamage() const {
 
 int Monsters::getMonsterHealth() const {
 	return health;
+}
+
+void Monsters::takeDamage(int damage) {
+	health -= damage;
+	if (health < 0) {
+		health = 0;
+	}
+}
+
+void Monsters::heal(int amount) {
+	health += amount;
+	if (health > maxHealth) {
+		health = maxHealth;
+	}
 }

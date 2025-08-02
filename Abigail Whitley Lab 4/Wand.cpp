@@ -7,7 +7,7 @@
 
 using namespace std;
 
-Wand::Wand() : Weapons("Wand", 1, 8) {
+Wand::Wand() : Weapons("Wand", 1, 10) {
 
 }
 

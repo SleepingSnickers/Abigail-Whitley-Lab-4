@@ -8,6 +8,8 @@ using namespace std;
 
 Weapons::Weapons() {
 	name = " ";
+	lowerRandomizerBound = 0;
+	upperRandomizerBound = 0;
 }
 
 Weapons::Weapons(string name, int lowerRandomizerBound, int upperRandomizerBound) {
