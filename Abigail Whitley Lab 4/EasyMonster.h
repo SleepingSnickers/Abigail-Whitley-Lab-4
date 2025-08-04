@@ -10,8 +10,10 @@ class EasyMonster :
     public Monsters
 {
 public:
+    //constructor
     EasyMonster();
 
+    //attack() override
     string attack() override;
 };
 

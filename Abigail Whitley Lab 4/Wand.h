@@ -10,8 +10,10 @@ class Wand :
     public Weapons
 {
 public:
+    //constructor
     Wand();
 
+    //use override
     string use() const override;
 };
 

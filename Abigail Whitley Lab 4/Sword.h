@@ -10,8 +10,10 @@ class Sword :
     public Weapons
 {
 public:
+    //constructor
     Sword();
 
+    //use() override
     string use() const override;
 };
 

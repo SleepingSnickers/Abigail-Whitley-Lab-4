@@ -12,8 +12,10 @@ class HardMonster :
     public Monsters
 {
 public:
+    //constructor
     HardMonster();
 
+    //attack() override
     string attack() override;
 };
 
